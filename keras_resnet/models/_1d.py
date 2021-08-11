@@ -7,10 +7,10 @@ keras_resnet.models._1d
 This module implements popular one-dimensional residual models.
 """
 
-import keras.backend
-import keras.layers
-import keras.models
-import keras.regularizers
+from tensorflow import keras.backend
+from tensorflow import keras.layers
+from tensorflow import keras.models
+from tensorflow import keras.regularizers
 
 import keras_resnet.blocks
 import keras_resnet.layers
