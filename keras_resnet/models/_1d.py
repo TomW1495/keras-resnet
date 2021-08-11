@@ -16,7 +16,7 @@ import keras_resnet.blocks
 import keras_resnet.layers
 
 
-class ResNet1D(keras.Model):
+class ResNet1D(tensorflow.keras.Model):
     """
     Constructs a `keras.models.Model` object using the given block count.
 
